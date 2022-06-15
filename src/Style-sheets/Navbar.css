@@ -17,7 +17,8 @@
     padding: 1rem;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
+    overflow: hidden;
 }
 
 .nav-right-container {
@@ -26,7 +27,6 @@
     margin-right: 3em;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid white; */
 
 }
 
@@ -50,5 +50,4 @@
     padding: 0.8rem 2rem 0.8rem 2rem;
     font-size: 1em;
     border-radius: 15px;
-    /* border: 2px solid green; */
 }

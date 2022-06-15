@@ -84,7 +84,6 @@ export default function Footer() {
         </a>
       </span>
       </p>
-
     </footer>
   )
 }
