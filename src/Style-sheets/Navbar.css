@@ -1,0 +1,54 @@
+@font-face {
+    font-family: intro;
+    src: url(../Fonts/Intro.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-right-container {
+    display: flex;
+    width: 22rem;
+    margin-right: 3em;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid white; */
+
+}
+
+.nav-left-container {
+    margin-left: 4em;
+}
+
+.nav-items-sound {
+    height: 1.5em;
+
+}
+
+.nav-items-ham {
+    height: 1em;
+
+}
+
+.nav-btn {
+    font-family: intro;
+    outline: none;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    font-size: 1em;
+    border-radius: 15px;
+    /* border: 2px solid green; */
+}

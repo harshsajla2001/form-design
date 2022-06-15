@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Jost-VariableFont;
+    src: url(../Fonts/Jost-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Jost-SemiBold;
+    src: url(../Fonts/static/Jost-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: intro;
+    src: url(../Fonts/Intro.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-div-heading {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13%;
+    margin-bottom: 13%;
+    align-items: center;
+
+}
+
+.form-heading-small {
+    color: white;
+    font-weight: 400;
+    font-family: Jost-VariableFont;
+
+}
+
+.form-heading-large {
+    color: white;
+    font-weight: 100;
+    font-family: intro;
+
+}
+
+.form-div-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+
+}
+
+.form-div-name {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    max-width: 40em;
+}
+
+.form-input-name {
+    width: 22em;
+    height: 4em;
+    border: none;
+    padding: 2em 2em 2em 2em;
+    font-family: Jost-VariableFont;
+}
+
+.form-div-email {
+    max-width: 40em;
+}
+
+.form-input-email {
+    width: 46.5em;
+    height: 4em;
+    border: none;
+    padding: 2em 2em 2em 2em;
+    font-family: Jost-VariableFont;
+}
+
+.form-div-code {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    max-width: 40em;
+}
+
+.form-select-code {
+    width: 7em;
+    height: 4em;
+    border: none;
+    padding: 1.1em;
+    font-family: Jost-VariableFont;
+}
+
+.form-input-code {
+    width: 38.5em;
+    height: 4em;
+    border: none;
+    padding: 2em 2em 2em 2em;
+    font-family: Jost-VariableFont;
+}
+
+.form-div-country {
+    max-width: 40em;
+}
+
+.form-select-country {
+    width: 46.5em;
+    height: 4em;
+    border: none;
+    padding: 1em;
+    font-family: Jost-VariableFont;
+}
+
+.form-div-terms {
+    position: relative;
+    right: 8.4em;
+}
+
+.form-radio-terms {
+    accent-color: #797979;
+}
+
+
+.form-span-terms {
+    color: white;
+    font-family: Jost-VariableFont;
+    margin-left: 1em;
+}
+
+.form-radio-a-terms {
+    color: green;
+    text-decoration: underline;
+}
+
+.form-buttom-submit {
+    margin-bottom: 100%;
+    width: 11em;
+    height: 3em;
+    color: white;
+    font-family: Jost-VariableFont;
+    border: none;
+    background-image: linear-gradient(to bottom, #53d653, #0c860c);
+
+}
+
+.input-bg[type=text],
+.input-bg[type=email],
+.input-bg[type=number],
+.input-bg[type=checkbox],
+.input-bg {
+    background-color: #2c2c2c;
+    color: #919191;
+}
