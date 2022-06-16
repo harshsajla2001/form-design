@@ -25,7 +25,8 @@
     display: flex;
     width: 22rem;
     margin-right: 3em;
-    justify-content: space-between;
+    gap: 1rem;
+    justify-content: flex-end;
     align-items: center;
 
 }
@@ -36,11 +37,13 @@
 
 .nav-items-sound {
     height: 1.5em;
+    cursor: pointer;
 
 }
 
 .nav-items-ham {
     height: 1em;
+    cursor: pointer;
 
 }
 
@@ -50,4 +53,11 @@
     padding: 0.8rem 2rem 0.8rem 2rem;
     font-size: 1em;
     border-radius: 15px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 710px) {
+    .nav-btn{
+        display: none;
+    }
 }

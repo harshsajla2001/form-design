@@ -29,13 +29,6 @@
     background-size: contain;
     color: #e8e8e8;
     position: relative;
-    /* font-size: 1.4vw;
-    font-family: Jost; */
-    /* display: block; */
-    /* height: 350px; */
-    /* width: 100vw; */
-    /* line-height: 1.25; */
-    /* font-weight: 600; */
 }
 
 .footer-p-invest {
@@ -101,14 +94,13 @@
 }
 
 .footer-a-privacy {
-    border-right: 1px solid white;
     padding-right: 1em;
     color: white;
     text-decoration: none;
+    border-right: 2px solid white  ;
 }
 
 .footer-a-terms {
-    border-left: 1px solid white;
     padding-left: 1em;
     color: white;
     text-decoration: none;

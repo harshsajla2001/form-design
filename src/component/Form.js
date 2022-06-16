@@ -16,10 +16,10 @@ export default function Form() {
                 </div>
 
                 <div className="form-div-name">
-                    <input className='form-input-name input-bg' type="text" name="" id="" placeholder='FIRST NAME' />
-                    <input className='form-input-name input-bg' type="text" name="" id="" placeholder='LAST NAME' />
+                    <input className='form-input-name input-bg focus-none' type="text" name="" id="" placeholder='FIRST NAME' />
+                    <input className='form-input-name input-bg focus-none' type="text" name="" id="" placeholder='LAST NAME' />
                 </div>
-                <div className="form-div-email"><input className="form-input-email input-bg" type="email" placeholder='EMAIL' /></div>
+                <div className="form-div-email"><input className="form-input-email focus-none input-bg" type="email" placeholder='EMAIL' /></div>
                 <div className="form-div-code">
                     <select name="code" id="" className='form-select-code input-bg'>
                         <option value="IND">IND</option>
@@ -29,7 +29,7 @@ export default function Form() {
                         <option value="RUS">RUS</option>
                         <option value="JAP" >JAP</option>
                     </select>
-                    <input type="text" name="" placeholder='+91' className='form-input-code input-bg' />
+                    <input type="text" name="" placeholder='+91' className='form-input-code focus-none input-bg' />
                 </div>
                 <div className="form-div-country">
                     <select name="country" className='form-select-country input-bg '>
